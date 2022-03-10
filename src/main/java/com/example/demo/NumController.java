@@ -47,7 +47,7 @@ public class NumController {
             if (operator.equals("/")) {
                 if (secondNum == 0) {
                     return 0;
-                }git add README.md
+                }
             }
             return switch (operator) {
                 case "+" -> firstNum + secondNum;
